@@ -1,0 +1,13 @@
+// @mixin funkyBorder($borderSize: 10px, $borderColour: orange) {
+//   border: $borderSize solid $borderColour;
+//
+//   * {
+//     @content;
+//   }
+// }
+
+@mixin desktop() {
+  @media (min-width: 50rem) {
+    @content;
+  }
+}
